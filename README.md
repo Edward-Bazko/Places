@@ -1,2 +1,2 @@
 # Places
-Remember places you love
+Remember places you love ❤️
