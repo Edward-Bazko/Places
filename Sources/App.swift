@@ -35,6 +35,7 @@ final class App {
     
     @objc func showCameraImagePicker() {
         let picker = ImagePickerController()
+        picker.sourceType = .camera // must be here
         picker.didFinish = { [unowned self, unowned picker] image in
             picker.dismiss(animated: true, completion: {
                 let place = self.placesController.importPlaceFromPhoto(image)
@@ -46,6 +47,7 @@ final class App {
             picker.dismiss(animated: true, completion: nil)
         }
         navigationController.present(picker, animated: true, completion: nil)
+        
     }
     
     

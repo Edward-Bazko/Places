@@ -11,6 +11,7 @@
 		0B27964A203C651100778387 /* PlacesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B279648203C650C00778387 /* PlacesController.swift */; };
 		0B3092A02031C3350006BD0B /* ImagePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B30929F2031C3350006BD0B /* ImagePickerController.swift */; };
 		0B34C5E52450CD840013BB15 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 0B34C5E42450CD840013BB15 /* README.md */; };
+		0B34C5E72450D66F0013BB15 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B34C5E62450D66F0013BB15 /* Logger.swift */; };
 		0B4A5F392028E707006C5846 /* PlacesStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDA68E620220E9F00D94B5B /* PlacesStore.swift */; };
 		0B4A5F3A2028E710006C5846 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCBF4EB1E9A3E4F00A233D5 /* Place.swift */; };
 		0B4A5F3E202900FE006C5846 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4A5F3D202900FE006C5846 /* LocationManager.swift */; };
@@ -42,6 +43,7 @@
 		0B279648203C650C00778387 /* PlacesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PlacesController.swift; path = ../../Sources/PlacesController.swift; sourceTree = "<group>"; };
 		0B30929F2031C3350006BD0B /* ImagePickerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerController.swift; sourceTree = "<group>"; };
 		0B34C5E42450CD840013BB15 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		0B34C5E62450D66F0013BB15 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = SOURCE_ROOT; };
 		0B4A5F2C2028E569006C5846 /* PlacesAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlacesAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B4A5F302028E569006C5846 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0B4A5F3D202900FE006C5846 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
@@ -157,6 +159,7 @@
 			isa = PBXGroup;
 			children = (
 				0BDD42F62450CBE80038CAB1 /* Notifications.swift */,
+				0B34C5E62450D66F0013BB15 /* Logger.swift */,
 			);
 			name = Generic;
 			sourceTree = "<group>";
@@ -289,6 +292,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0BDD42F72450CBE80038CAB1 /* Notifications.swift in Sources */,
+				0B34C5E72450D66F0013BB15 /* Logger.swift in Sources */,
 				0BDD42F12450CBCA0038CAB1 /* AppDelegate.swift in Sources */,
 				0BDA68E720220E9F00D94B5B /* PlacesStore.swift in Sources */,
 				0BDD42F52450CBE20038CAB1 /* PlaceDetailsViewController.swift in Sources */,
